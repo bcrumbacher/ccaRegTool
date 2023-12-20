@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse;
+  border-spacing: '10px 4px';
+}
+
+table td {
+  border-left: 2em solid transparent;
+  border-top: 1em solid transparent;
+}
+
+td {
+  padding: 0 30px;
+  text-align: right;
+}
