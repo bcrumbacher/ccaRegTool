@@ -1,6 +1,5 @@
 
 export default async function parseFile(clubData: any) {
-  console.log(clubData);
   let rows: any[] = [["club", "family", "fee", "IE judge requirement", "IE judges registered",
   "debate judge requirement", "debate judges registered"]];
   clubData.map((club: any) => {
